@@ -1,0 +1,23 @@
+.MOKIA-LITICIA{
+    color: darkcyan;
+}
+button{
+    background-color: darkcyan;
+    font-size: medium;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .section1{
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
