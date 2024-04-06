@@ -1,0 +1,185 @@
+.container{
+    position: relative;
+    display: inline-block;
+  } 
+  .text-block{
+    position: absolute;
+    top: 25%;
+  left: 15%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 200px;
+  }
+  .top-image {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    opacity: 0.5;
+  }
+  .bottom-image{
+    background-size:35%;
+  }
+  body {
+    background-image: url('c:\Users\CARE I T\Desktop\R.jpg');
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: calc(60% * 100vw / 100%);
+  }
+  button {
+    color: blue;
+    background-color: aquamarine;
+    width: 60px;
+    position:relative;
+     top:6px; 
+    right: 1px;
+    border-color: transparent;
+    border-radius: 10px;
+    display: flex;
+  margin-right: 1px;
+  flex-direction: row;
+  text-align: left;
+  cursor: pointer;
+  }
+  /*.search{
+    position: relative;
+    top: 1px; Adjust the top value to position the button vertica/
+    right: 1px; 
+    display: flex;
+  margin-right: 20px;*/
+  
+input{ width: 500px;
+border-radius: 10px;}
+
+p{
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cloud{
+ position: relative;
+  top:-90px; 
+ right: -500px;
+ display: flex;
+ justify-items: left;
+  margin-right: -1px;
+  text-align: right;
+
+}
+.monday {
+  width: 50px;
+  height: 90px;
+background-color:blueviolet;
+opacity: 1;
+margin-left: 40px;
+}
+.tuesday{
+  width: 50px;
+  height: 90px;
+background-color:blueviolet;
+opacity: 1;
+margin-left: 40px;
+}
+.thursday{
+  width: 50px;
+  height: 90px;
+background-color:blueviolet;
+opacity: 1;
+margin-left: 40px;
+}
+.friday{
+  width: 50px;
+  height: 90px;
+background-color:blueviolet;
+opacity: 1;
+margin-left: 40px;
+border-radius: 2px;}
+.sunday{
+  width: 50px;
+  height: 90px;
+background-color:blueviolet;
+opacity: 1;
+margin-left: 40px;
+  place-items: center;
+border-radius: 2px;}
+  
+.one{
+    position: relative;
+    width: 30px;
+    display: flex;
+    top:-80px; 
+    bottom: 
+   display: flex;
+    text-align: right;
+  }
+  .two{
+    position: relative;
+    width: 30px;
+    display: flex;
+    top:-80px; 
+    bottom: 
+   display:flex;
+    text-align:right;
+  }
+.three{
+  position: relative;
+  width: 30px;
+  display: flex;
+  top:-80px; 
+  bottom: 
+ display: flex;
+  text-align: right;
+}
+.four{
+  position: relative;
+  width: 30px;
+  display: flex;
+  top:-80px; 
+ display: flex;
+  text-align: right;
+}
+.five{
+  position: relative;
+  width: 30px;
+  display: flex;
+  top:-80px; 
+ display: flex;
+  text-align: right;
+}
+.six{
+  position: relative;
+  width: 30px;
+  display: flex;
+  top:-80px;  
+ display: flex;
+  text-align: right;
+}
+.seven{
+  position: relative;
+  width: 30px;
+  display: flex;
+  top:-80px; 
+ display: flex;
+  text-align: right;
+}
+.number {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+  bottom: -60px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.number1 {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+  bottom: -60px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
